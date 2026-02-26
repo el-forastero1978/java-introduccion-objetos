@@ -1,5 +1,10 @@
 package DAWEntornos;
 
+/**
+ * Descripción de la clase Cliente
+ * @author Pedro Viñals
+ * @version 1.1
+ */
 public class Cliente {
 
    private String nombre;

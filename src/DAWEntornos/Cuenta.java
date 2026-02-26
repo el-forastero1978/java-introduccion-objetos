@@ -9,7 +9,11 @@ public class Cuenta {
 
     private static int total;
 
-
+/**
+ * Constructor de la clase Cuenta
+ * @param agencia {int} especifique la agencia de la cuenta
+ * @param numero {int} especifique el numero de la cuenta
+ */
     public Cuenta( int agencia, int numero) {
         this.agencia = agencia;
         this.numero = numero;
@@ -21,7 +25,11 @@ public class Cuenta {
     public void deposita(double valor) {
         this.saldo = this.saldo + valor;
     }
-
+/**
+ * Método para retirar dinero de la cuenta
+ * @param valor {double} especifique el valor a retirar
+ * @return {boolean} true si el retiro es exitoso, false si no lo es
+ */
     public boolean saca(double valor) {
         if(this.saldo >= valor) {
             this.saldo -= valor;
