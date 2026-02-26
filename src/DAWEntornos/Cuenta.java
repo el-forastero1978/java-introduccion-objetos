@@ -1,4 +1,4 @@
-package bytebank;
+package DAWEntornos;
 
 public class Cuenta {
 
@@ -8,6 +8,7 @@ public class Cuenta {
     private Cliente titular = new Cliente();
 
     private static int total;
+
 
     public Cuenta( int agencia, int numero) {
         this.agencia = agencia;
